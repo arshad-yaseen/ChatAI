@@ -1,0 +1,33 @@
+/* Google Fonts (Inter) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+*::selection{
+    color: white;
+    background-color: #3B81F6;
+}
+.caret{
+    width:10px;
+    height:15px;
+    animation: blink .5s infinite;
+  } 
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .bot-response-wrapper{
+    transition: 1s ease-in-out;
+  }
